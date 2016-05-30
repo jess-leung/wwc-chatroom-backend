@@ -5,5 +5,7 @@ NodeJS backend for the Intro to Android workshop WWC August 2016 (https://wwc-ch
 
 # Setting up
 You will need to [install Node 4.4.5+](https://nodejs.org/en/download/). 
+
 To set up the backend on your machine, run `npm install` and then to start, `npm start`
+
 To run the tests, `npm test`
