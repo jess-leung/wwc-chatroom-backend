@@ -1,23 +1,25 @@
 {
   "development": {
-    "username": "qrdfnnuumywfug",
-    "password": "ZkedTFdZZGDl1-NdSnxTk3xUK0",
-    "database": "d71dtajudjbjue",
-    "host": "ec2-23-21-234-218.compute-1.amazonaws.com",
+    "username": "jleung",
+    "password": null,
+    "database": "wwc_chatroom_development",
+    "host": "localhost",
     "dialect": "postgres"
   },
   "test": {
     "username": "qrdfnnuumywfug",
     "password": "ZkedTFdZZGDl1-NdSnxTk3xUK0",
     "database": "d71dtajudjbjue",
-    "host": "ec2-23-21-234-218.compute-1.amazonaws.com",
-    "dialect": "postgres"
+    "host": "https://ec2-23-21-234-218.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "use_env_variable": "postgres://qrdfnnuumywfug:ZkedTFdZZGDl1-NdSnxTk3xUK0@ec2-23-21-234-218.compute-1.amazonaws.com:5432/d71dtajudjbjue"
   },
   "production": {
     "username": "ulzryhopcyeydr",
     "password": "xZJ_9Amgyp3DUzkd_jRzGNJ4je",
     "database": "d8rlq6b959k7a2",
     "host": "ec2-54-221-226-72.compute-1.amazonaws.com",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "use_env_variable": "postgres://ulzryhopcyeydr:xZJ_9Amgyp3DUzkd_jRzGNJ4je@ec2-54-221-226-72.compute-1.amazonaws.com:5432/d8rlq6b959k7a2"
   }
 }
