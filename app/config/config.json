@@ -10,7 +10,7 @@
     "username": "qrdfnnuumywfug",
     "password": "ZkedTFdZZGDl1-NdSnxTk3xUK0",
     "database": "d71dtajudjbjue",
-    "host": "https://ec2-23-21-234-218.compute-1.amazonaws.com",
+    "host": "ec2-23-21-234-218.compute-1.amazonaws.com",
     "dialect": "postgres",
     "use_env_variable": "postgres://qrdfnnuumywfug:ZkedTFdZZGDl1-NdSnxTk3xUK0@ec2-23-21-234-218.compute-1.amazonaws.com:5432/d71dtajudjbjue"
   },
