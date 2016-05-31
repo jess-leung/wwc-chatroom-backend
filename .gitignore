@@ -3,9 +3,6 @@ logs
 *.log
 npm-debug.log*
 
-#config
-app/config/config.json
-
 # Runtime data
 pids
 *.pid
