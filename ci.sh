@@ -1,7 +1,7 @@
 main() {
   npm install;
   if [ "$NODE_ENV" = "test" ]; then
-    npm ciTest
+    NODE_ENV=test npm test
   else
     npm test
   fi
