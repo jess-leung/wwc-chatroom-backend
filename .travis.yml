@@ -10,7 +10,7 @@ env:
   - DB=postgres
 
 before_script:
-  - cp config/database.travis.yml app/config/database.yml
+  - cp app/config/database.travis.yml config/database.yml
   - psql -c 'create database wwc_chatroom_development;' -U postgres
 
 script: ./ci.sh
