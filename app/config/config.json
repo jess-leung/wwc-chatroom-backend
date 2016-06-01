@@ -1,6 +1,6 @@
 {
   "development": {
-    "username": "jleung",
+    "username": "postgres",
     "password": null,
     "database": "wwc_chatroom_development",
     "host": "localhost",
