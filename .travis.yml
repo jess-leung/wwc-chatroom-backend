@@ -11,9 +11,9 @@ env:
 
 postgres:
   adapter: postgresql
-  database: myapp_test
+  database: wwc_chatroom_development
   username: postgres
-  
+
 before_script:
   - psql -c 'create database wwc_chatroom_development;' -U postgres
   - "npm install"
