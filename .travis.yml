@@ -1,12 +1,16 @@
 language: node_js
 
+services:
+  - postgresql
+
 node_js:
   - 4.4
 
-services:
-  - postgres
-  
 env:
-  - NODE_ENV=test
+  - DB=postgres
+
+before_script:
+  - cp config/database.travis.yml config/database.yml
+  - psql -c 'create database wwc_chatroom_development;' -U postgres
 
 script: ./ci.sh
