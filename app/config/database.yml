@@ -1,0 +1,3 @@
+development:
+  adapter: postgresql
+  database: wwc_chatroom_development
