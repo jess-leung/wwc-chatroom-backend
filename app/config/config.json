@@ -11,7 +11,8 @@
     "password": null,
     "database": "wwc_chatroom_development",
     "host": "localhost",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "adapter": "postgresql"
   },
   "test": {
     "username": "qrdfnnuumywfug",
