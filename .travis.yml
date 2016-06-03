@@ -20,7 +20,7 @@ postgres:
 
 before_script:
   - "npm install"
-  - psql -c 'create database wwc_chatroom_development' -U postgres
+  - psql -c 'create database wwc_chatroom_development;' -U postgres
 
 script:
   - "./node_modules/.bin/sequelize db:migrate --env Staging"
