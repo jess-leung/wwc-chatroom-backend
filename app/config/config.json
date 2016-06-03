@@ -8,10 +8,8 @@
   },
   "staging": {
     "username": "postgres",
-    "password": null,
+    "password": "",
     "database": "wwc_chatroom_development",
-    "host": "localhost",
-    "dialect": "postgres",
     "adapter": "postgresql"
   },
   "test": {
