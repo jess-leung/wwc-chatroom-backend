@@ -19,9 +19,9 @@ postgres:
   username: postgres
 
 before_script:
-  - "npm install"
   - psql -c 'create database wwc_chatroom_development;' -U postgres
+  - "npm install"
+
 
 script:
-  - "./node_modules/.bin/sequelize db:migrate"
   - "npm test"
