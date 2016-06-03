@@ -23,5 +23,5 @@ before_script:
   - psql -c 'create database wwc_chatroom_development;' -U postgres
 
 script:
-  - "./node_modules/.bin/sequelize db:migrate --env Staging"
+  - "./node_modules/.bin/sequelize db:migrate"
   - "npm test"
