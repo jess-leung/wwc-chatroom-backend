@@ -10,7 +10,8 @@
     "username": "postgres",
     "password": null,
     "database": "wwc_chatroom_development",
-    "adapter": "postgresql"
+    "adapter": "postgresql",
+    "dialect": "postgres"
   },
   "test": {
     "username": "qrdfnnuumywfug",
