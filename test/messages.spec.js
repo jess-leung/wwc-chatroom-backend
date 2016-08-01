@@ -29,4 +29,10 @@ describe('Messages', function() {
       .send(message)
       .expect(400, done);
   });
+
+  it('shoudl return 200 response on /messages DELETE', function(done) {
+    request(app).delete('/messages/1')
+      .set('Accept', 'application/json')
+      .expect(200, done);
+  });
 });
