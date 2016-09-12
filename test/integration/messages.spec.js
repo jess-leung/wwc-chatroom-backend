@@ -1,7 +1,7 @@
 var chai = require('chai');
 var expect = chai.expect;
 var request = require("supertest");
-var app = require("../app/app");
+var app = require("../../app/app");
 
 describe('Messages', function() {
   it('should return 200 response on /messages GET', function(done) {
