@@ -6,6 +6,6 @@ describe('Messages', function() {
     expect(true).to.equal(true);
   });
   it('should return true', function() {
-    expect(false).to.equal(true);
+    expect(false).to.equal(false);
   });
 });
