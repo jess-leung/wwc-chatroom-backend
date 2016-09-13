@@ -2,11 +2,10 @@ var chai = require('chai');
 var expect = chai.expect;
 
 describe('Messages', function() {
-  it('should do some random assertions for the demo', function() {
+  it('should return true', function() {
     expect(true).to.equal(true);
-    expect(1 + 1).to.equal(2);
   });
   it('should return true', function() {
-    expect(false).to.equal(false);
+    expect(false).to.equal(true);
   });
 });
