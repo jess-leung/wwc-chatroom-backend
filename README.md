@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jleu1656/wwc-chatroom-backend.svg?branch=master)](https://travis-ci.org/jleu1656/wwc-chatroom-backend)
+[![Build Status](https://travis-ci.org/jess-leung/wwc-chatroom-backend.svg?branch=master)](https://travis-ci.org/jess-leung/wwc-chatroom-backend)
 
 # wwc-chatroom-backend
 NodeJS backend for the Intro to Android workshop WWC August 2016 (https://wwc-chatroom.herokuapp.com/). 
